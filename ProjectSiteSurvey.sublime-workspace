@@ -1,0 +1,921 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"check",
+				"checkType"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"proj",
+				"projSiteURL"
+			],
+			[
+				"type",
+				"typeList1"
+			],
+			[
+				"out",
+				"outputData"
+			],
+			[
+				"contest",
+				"contestNotes"
+			],
+			[
+				"conte",
+				"contestOpen"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"use",
+				"useContest"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"nam",
+				"nameRes"
+			],
+			[
+				"is",
+				"isAdmin"
+			],
+			[
+				"siz",
+				"sizeType"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"strto",
+				"mb_strtolower"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"uni",
+				"uniqname"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"log",
+				"login_name"
+			],
+			[
+				"stre",
+				"streetL"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"el",
+				"eligibilityRules"
+			],
+			[
+				"first",
+				"firstArrayLetter"
+			],
+			[
+				"rea",
+				"realName"
+			],
+			[
+				"arr",
+				"arrayPassed"
+			],
+			[
+				"name",
+				"nameFind"
+			],
+			[
+				"rn",
+				"Rnd"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"userN",
+				"userName"
+			],
+			[
+				"lo",
+				"login_name"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"in",
+				"in_array"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"bordre",
+				"border-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"s",
+				"span"
+			],
+			[
+				"dat",
+				"datetime_start"
+			],
+			[
+				"time",
+				"time_start"
+			],
+			[
+				"b",
+				"building_name"
+			],
+			[
+				"get",
+				"getEventInfo"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"all",
+				"all_data"
+			],
+			[
+				"stud",
+				"students_array"
+			],
+			[
+				"rick",
+				"rick_smoke"
+			],
+			[
+				"student",
+				"student_id"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"result",
+				"resultRecord"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"ID",
+				"id"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/rsmoke/Sites/ProjectSIteSurvey/index.php",
+			"settings":
+			{
+				"buffer_size": 10585,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ph",
+		"selected_items":
+		[
+			[
+				"ph",
+				"phpfmt: toggle PSR1"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git lic",
+				"SublimeGit: Add License"
+			],
+			[
+				"gitp",
+				"Git: Pull"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"Snippet: ",
+				"Snippet: sqlq"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"gitP",
+				"Git: Push"
+			],
+			[
+				"gitpus",
+				"Git: Push"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"git:in",
+				"Git: Init"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: asp",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inat",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 548.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rsmoke/Sites/ProjectSIteSurvey",
+		"/Users/rsmoke/Sites/ProjectSIteSurvey/css"
+	],
+	"file_history":
+	[
+		"/Users/rsmoke/Sites/ProjectSIteSurvey/index.php",
+		"/Users/rsmoke/Sites/NELP_Registration/updateEntry.php",
+		"/Users/rsmoke/Sites/NELP_Registration/confirm.php",
+		"/Users/rsmoke/Sites/ProjectSIteSurvey/css/myStyles.css",
+		"/Users/rsmoke/Sites/ProjectSIteSurvey/css/bootstrap.min.css",
+		"/Library/WebServer/Support/configProjSurvey.php",
+		"/Library/WebServer/Support/basicLib.php",
+		"/Users/rsmoke/Desktop/projSurvey.csv",
+		"/Users/rsmoke/RailsProjects/todo-rails/README.rdoc",
+		"/Users/rsmoke/Sites/hopwood/ADMIN/index.php",
+		"/Library/WebServer/Support/configEnglishContest.php",
+		"/Users/rsmoke/Sites/hopwood/footer.php",
+		"/Users/rsmoke/Sites/hopwood/ADMIN/admJS/admMyScript.js",
+		"/Users/rsmoke/Sites/WritingContest/contestList.php",
+		"/Users/rsmoke/Sites/ArtSurvey/removeAdmin.php",
+		"/Users/rsmoke/Sites/WritingContest/js/index.html",
+		"/Users/rsmoke/Sites/WritingContest/ADMIN/index.php",
+		"/Users/rsmoke/Sites/WritingContest/ADMIN/admJS/admMyScript.js",
+		"/Users/rsmoke/Sites/WritingContest/ADMIN/newContestSubmit.php",
+		"/Users/rsmoke/Sites/WritingContest/ADMIN/contestsList.php",
+		"/Users/rsmoke/Sites/WritingContest/ADMIN/contestsInstance.php",
+		"/Users/rsmoke/Sites/WritingContest/css/default.css",
+		"/Users/rsmoke/Sites/WritingContest/TEST_W3schoolFileUploader.php",
+		"/Users/rsmoke/Sites/WritingContest/applicationForm.php",
+		"/Users/rsmoke/Sites/WritingContest/ADMIN/myAdminFormView.php",
+		"/Users/rsmoke/Sites/WritingContest/ADMIN/myAdminFormSubmit.php",
+		"/Users/rsmoke/Sites/WritingContest/footer.php",
+		"/Users/rsmoke/Sites/WritingContest/css/form.css",
+		"/Users/rsmoke/Sites/WritingContest/individualSubmission.php",
+		"/Users/rsmoke/Sites/WritingContest/js/myScript.js",
+		"/Users/rsmoke/Sites/WritingContest/updateApplicant.php",
+		"/Users/rsmoke/Sites/WritingContest/insertApplicant.php",
+		"/Users/rsmoke/Sites/WritingContest/index.php",
+		"/Users/rsmoke/Sites/WritingContest/getEligibility.php",
+		"/Users/rsmoke/Sites/WritingContest/detailEdit.php",
+		"/Users/rsmoke/Support/configEnglishContest.php",
+		"/Users/rsmoke/Sites/WritingContest/src/misutilphp/UploadFile.php",
+		"/Users/rsmoke/Sites/WritingContest/ADMIN/serverConfig.php",
+		"/Users/rsmoke/Sites/WritingContest/ZOLDdetailEdit.php",
+		"/Users/rsmoke/Sites/WritingContest/src/index.html",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/index.php",
+		"/Users/rsmoke/Sites/WritingContest/ZOLDviewSubmitted.php",
+		"/Users/rsmoke/Sites/WritingContest/contestIndex.php",
+		"/Users/rsmoke/Sites/WritingContest/application-3contest.php",
+		"/Users/rsmoke/Sites/WritingContest/application-hopwood.php",
+		"/Users/rsmoke/Sites/WritingContest/application-miller.php",
+		"/Users/rsmoke/Sites/WritingContest/js/checkmultiple.js",
+		"/Users/rsmoke/Downloads/Ex_Files_UpFlsPHP/Exercise Files/ch01/01_05/form_end.php",
+		"/Users/rsmoke/Sites/WritingContest/form.php",
+		"/Users/rsmoke/Library/Application Support/Sublime Text 3/Packages/User/sqlq.sublime-snippet",
+		"/Users/rsmoke/Sites/WritingContest/viewSubmitted.php",
+		"/Users/rsmoke/Sites/WritingContest/eligibiltyRules.html",
+		"/Users/rsmoke/Support/basicLib.php",
+		"/Users/rsmoke/Sites/WritingContest/js/applicationMiller.php",
+		"/Users/rsmoke/Sites/WritingContest/detailView.php",
+		"/Users/rsmoke/Sites/WritingContest/testmodal.html",
+		"/Users/rsmoke/Sites/WritingContest/testmodal2.html",
+		"/Users/rsmoke/Sites/WritingContest/js/insertApplicant.php",
+		"/Users/rsmoke/Sites/WritingContest/js/bootstrap-formhelpers.min.js",
+		"/Users/rsmoke/Sites/WritingContest/temp.html",
+		"/Users/rsmoke/Sites/html5Clock/index.html",
+		"/Users/rsmoke/Sites/WritingContest/styles/form.css",
+		"/Users/rsmoke/Sites/WritingContest/penNameGen.php",
+		"/Users/rsmoke/Sites/WritingContest/css/bootstrap-formhelpers.min.css",
+		"/Users/rsmoke/Library/Application Support/Sublime Text 3/Packages/User/flabel.sublime-snippet",
+		"/Users/rsmoke/Sites/WritingContest/css/normalize.css",
+		"/Users/rsmoke/Sites/WritingContest/fileUpload.sublime-project",
+		"/Users/rsmoke/Sites/Hopwood/mime_test.php",
+		"/Users/rsmoke/Sites/Hopwood/fileUpload.sublime-project",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/SRL_CompleteOutput.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/SRL_UnsentOutput.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/SRL_Unsubmitted.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/SRL_Edit.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/editedVars.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/myAdminFormSubmit.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/myAdminFormView.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/footer.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/ADMIN/adminMngmt.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/index.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/php/myFormSubmit.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/php/insertVars.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/php/delete_page.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/php/SRL_View.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/php/SRL_IndividualOutput.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/php/reqSubmit.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/php/myFormView.php",
+		"/Users/rsmoke/Sites/SocJobRefRequest/css/jobRef.css",
+		"/Users/rsmoke/Sites/SocJobRefRequest/socjobrefletter.sublime-project",
+		"/Users/rsmoke/Sites/EngCalendarFeed/scripts/EngCalendar.js",
+		"/Users/rsmoke/Desktop/challenge.cs",
+		"/Users/rsmoke/Sites/EngCalendarFeed/scripts/helper/pikaday.js",
+		"/Users/rsmoke/Sites/EngCalendarFeed/EngCalendar.js",
+		"/Users/rsmoke/Sites/EngCalendarFeed/jsonFeed.js",
+		"/Users/rsmoke/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/rsmoke/Support/configSocStuVisit.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/eventsFirst.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/studentVisitEvents.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/stuVisChklstView.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/stuVisApptView.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/eventsThird.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/index.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/eventsSecond.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/eventsAll.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/stuVisFacApptUpd.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/stuVisFacApptView.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/stuVisLogin.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/stuVisUpdChklst.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/js/studentVisit.js",
+		"/Users/rsmoke/Support/configStudentVisit.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/ADMIN/index.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/ADMIN/php/eventView.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/ADMIN/php/facAppts.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/ADMIN/php/studentView.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/FACULTY/index.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/js/index.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/index.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/php/stuVisChklst.php",
+		"/Users/rsmoke/Sites/EngStudentVisit/css/jumbotron.css",
+		"/Users/rsmoke/Sites/EngStudentVisit/studentVisitMap.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/ADMIN/js/index.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/ADMIN/php/index.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/images/index.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/css/index.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/ico/index.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/FACULTY/js/index.html",
+		"/Users/rsmoke/Sites/EngStudentVisit/fonts/index.html",
+		"/Users/rsmoke/Sites/StudentVisit/index.html",
+		"/Users/rsmoke/Sites/StudentVisit/php/stuVisApptView.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/rsmoke/Sites/hopwood",
+			"/Users/rsmoke/Sites/WritingContest/insertApplicant.php",
+			"/Users/rsmoke/Sites/WritingContest",
+			"/Users/rsmoke/Sites/WritingContest/PenNameGen.php",
+			"/Users/rsmoke/Sites/WritingContest/PenNameGen.asp",
+			"/Users/rsmoke/Sites/WritingContest/index.php,<open files>",
+			"/Users/rsmoke/Sites/WritingContest/index.php",
+			"/Users/rsmoke/Sites/EngStudentVisit",
+			"/Users/rsmoke/Sites/References",
+			"/Users/rsmoke/Sites/SocJobRefRequest",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"bfh",
+			"id=\"optionsRadios\\d\"",
+			"' ;",
+			"echo   '",
+			"echo  '",
+			"echo '",
+			"`tbl_surveylist`.",
+			"<base href=\"http://localhost/~rsmoke/hopwood/\">",
+			"WritingContest",
+			"\"",
+			"LIKE",
+			"Three",
+			"LIKE",
+			",",
+			"'",
+			"`",
+			"$extension",
+			"$renameDuplicates",
+			"$contestName",
+			"userName",
+			"*",
+			"\"",
+			"'",
+			"data-fill",
+			");",
+			"htmlspecialchars($_POST",
+			"<em>",
+			"<a href=\"javascript:void(0)\" title=\"Click to expand content.\">",
+			"echo",
+			"\",",
+			"\\s\"",
+			"`",
+			" varchar(255) NOT NULL DEFAULT ''",
+			"varchar(255) NOT NULL DEFAULT",
+			"varchar(255) NOT NULL DEFAULT ''",
+			"postmax",
+			"data-postmax",
+			"Letter=\"LastNameArray",
+			"$firstLetter=\"Girl",
+			"$firstLetter=\"Boy",
+			"=",
+			"SurnameArray",
+			");}",
+			")\n",
+			"FirstLetterArray",
+			"END IF",
+			"IF LastLetter",
+			"THEN",
+			"IF FirstLetter",
+			"otherContest",
+			"</em>",
+			"<em>",
+			"typeCheckingOn",
+			"in_array",
+			"foundation",
+			"<button",
+			"<button>",
+			"button",
+			"config<?php echo $deptShtName ?>StuVisit.php",
+			"soc",
+			"Soc",
+			"<?php $deptLngName ?>",
+			"Sociology",
+			"<?",
+			"index.html",
+			"200x200",
+			"\"\"",
+			";\n	public",
+			";public",
+			"<\\?echo",
+			"<?echo",
+			"lsa-soc-help@umich.edu",
+			"/soc",
+			"soc/",
+			"^soc",
+			"soc",
+			"[^s]soc",
+			"soc",
+			"sociology",
+			"Sociology",
+			"Soc[^R]",
+			"Soc",
+			"Sociology",
+			"sociology",
+			"fieldset-Styling-ie copy.css",
+			"sociology",
+			"soc",
+			"sociology",
+			"Soc",
+			"soc",
+			"Sociology",
+			"adminJobRef.css",
+			"jobRef.css",
+			"soc",
+			"'$deptLngName'",
+			"'$deptShtName'",
+			"deptlngName",
+			"<?php echo strtolower('$deptShtName');?>iology",
+			"<?php echo '$deptShtName';?>iology",
+			"\"$deptLngName\"",
+			"\"$deptShtName\"",
+			"mysqli_fetch_as",
+			"sociology",
+			"Sociology",
+			"Soc",
+			"soc",
+			"userSubmitted.php",
+			"insertVars.php",
+			"editedVars.php",
+			"data.php",
+			"SRL_Unsubmitted.php",
+			"SRL_Usubmitted.php",
+			"SRL_Edit.php",
+			"$deptLngName\"",
+			"<?php echo strtolower(\"$deptLngName\");?>",
+			"<?php echo strtolower(\"$deptShtName\");?>",
+			"<?php echo \"$deptLngName\";?>",
+			"<?php echo\"$deptLngName\";?>",
+			"<?php echo\"$deptShtName\";?>",
+			"<?php echo \"$deptShtName\";?>",
+			"<?php echo\"$deptShtName\";?>",
+			"<?php echo(\"$deptShtName\");?>",
+			"soc",
+			"done",
+			"my_adminScript.js",
+			"AdminjobRef.css",
+			"jquery-ui.min.css",
+			".js"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"'",
+			"<div class=\"form-group\">\n				<select class=\"form-control\">\n				  <option>1</option>\n				  <option>2</option>\n				  <option>3</option>\n				  <option>4</option>\n				  <option>5</option>\n				</select>\n			  </div>\n			  <div class=\"form-group\">\n			    <label for=\"openDate\" class=\"col-sm-2 control-label\">Open Date</label>\n			    <div class=\"col-sm-10\">\n			      <input type=\"date\" name=\"openDate\">\n			    </div>\n			  </div>\n			  <div class=\"form-group\">\n			    <label for=\"closeDate\" class=\"col-sm-2 control-label\">Open Date</label>\n			    <div class=\"col-sm-10\">\n			      <input type=\"date\" name=\"closeDate\">\n			    </div>\n			  </div>\n\n			  <div class=\"form-group\">\n			    <div class=\"col-sm-offset-2 col-sm-10\">\n			      <div class=\"notes\">\n			        <label>\n			          <input type=\"text\" name=\"notes\">\n			        </label>\n			      </div>\n			    </div>\n			  </div>\n			  <div class=\"form-group\">\n			    <div class=\"col-sm-offset-2 col-sm-10\">\n			      <button type=\"submit\" class=\"btn btn-default\">Submit</button>",
+			"example:",
+			"Two",
+			"example:",
+			" = $db->real_escape_string(htmlspecialchars('",
+			"",
+			"'",
+			"\"",
+			"'",
+			"*",
+			"data-shortname",
+			";",
+			"$row",
+			"<br /><em>",
+			"",
+			"$ = ",
+			"\"]);",
+			"echo htmlspecialchars($_POST[\"",
+			"\"",
+			"",
+			"Letter==\"LastNameArray",
+			"$firstLetter==\"Girl",
+			"$firstLetter==\"Boy",
+			"==",
+			"$surnameArray",
+			");\n}",
+			");",
+			"$lastLetterArray",
+			"$firstLetterArray",
+			"}",
+			"if ($lastLetter}",
+			"if ($lastLetter",
+			"){",
+			"if ($firstLetter",
+			"</p>",
+			"<p class=\"notes\">",
+			"configStudentVisit.php",
+			"<?php echo $deptShtName ?>",
+			"<?php echo $deptLngName ?>",
+			"<?php $deptLngName ?>",
+			"100x100",
+			"$",
+			",",
+			"<?php echo",
+			"site administrator",
+			"/<?echo strtolower(\"$deptShtName\");?>",
+			"<?echo strtolower(\"$deptShtName\");?>/",
+			"<?echo strtolower(\"$deptLngName\");?> ",
+			"<?echo \"$deptShtName\";?> ",
+			"<?echo \"$deptLngName\";?>",
+			"<?php echo strtolower(\"$deptLngName\");?>",
+			"<?php echo strtolower(\"$deptShtName\");?>",
+			"<?php echo\"$deptShtName\";?>",
+			"<?php echo\"$deptLngName\";?>",
+			"\"$deptLngName\"",
+			"\"$deptShtName\"",
+			"<?php echo strtolower('$deptLngName');?>",
+			"<?php echo '$deptLngName';?>",
+			"'$deptLngName'",
+			"'$deptShtName'",
+			"<?php echo \"$deptLngName\";?>",
+			"<?php echo \"$deptShtName\";?>",
+			"<?php echo strtolower(\"$deptShtName\");?>",
+			"<?php echo strtolower(\"$deptLngName\");?>",
+			"<?php echo strtolower(\"$deptShtName\");?>",
+			"",
+			"x===\"\"",
+			"x===null",
+			"",
+			"<label class=\"label\" ",
+			"<label class=\"label\"",
+			"x===\"\"",
+			"x===null",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/rsmoke/Sites/ProjectSIteSurvey/index.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 10585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4147,
+								4199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1406.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 506.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-pull":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 91.0
+	},
+	"pinned_build_system": "",
+	"project": "ProjectSiteSurvey.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"upl",
+				"src/misutilphp/UploadFile.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
