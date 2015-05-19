@@ -13,7 +13,8 @@ if (isset($_POST["submit"])) {
     foreach ($_POST['id'] as $key => $value) {
         $recID = $key;
         $projType = "";
-        $comments = "";
+        $assistcomments = "";
+        $howusedcomments = "";
         $blog = 0;
         $chatroom = 0;
         $communications = 0;
@@ -27,8 +28,11 @@ if (isset($_POST["submit"])) {
             if (($itemkey == 'projType') && (strlen($item) > 0)) {
                 $projType = $db->real_escape_string(test_input($item));
             }
-            if (($itemkey == 'comments') && (strlen($item) > 0)) {
-                $comments = $db->real_escape_string(test_input($item));
+            if (($itemkey == 'howusedcomments') && (strlen($item) > 0)) {
+                $howusedcomments = $db->real_escape_string(test_input($item));
+            }
+            if (($itemkey == 'assistcomments') && (strlen($item) > 0)) {
+                $assistcomments = $db->real_escape_string(test_input($item));
             }
             if ($itemkey == 'blog') {
                 $blog = 1;
@@ -60,7 +64,8 @@ if (isset($_POST["submit"])) {
         UPDATE tbl_surveylist
         SET
         `projType` = '{$projType}',
-        `comments` = '{$comments}',
+        `assistcomments` = '{$assistcomments}',
+        `howusedcomments` = '{$howusedcomments}',
         `editedby` = '{$login_name}',
         `blog`     = $blog,
         `chatroom` = $chatroom,
@@ -91,7 +96,8 @@ SELECT `id`,
     `projSiteRole`,
     `projSiteURL`,
     `projType`,
-    `comments`,
+    `assistcomments`,
+    `howusedcomments`,
     `blog`,
     `chatroom`,
     `communications`,
@@ -157,7 +163,8 @@ SQL;
     <div class="jumbotron">
       <div class="centerfy"><img src="img/banner.png" class="img-responsive" alt="LSA Logo" /></div>
       <h3>LSA CTools Project Survey<br>
-      <small><strong>Below are the CTools Project sites that you are listed as the contact person. Please help us identify the usage for each site.</strong></small></h3>
+      <small><strong>Below are the CTools Project sites that you are listed as the contact person. 
+      Please help us identify the usage for each site.</strong></small></h3>
     </div>
   </div>
   <div class="container">
@@ -181,15 +188,20 @@ while ($row = $result->fetch_assoc()) {
     } else {
         $checkType = "";
     }
-    if (strlen($row['comments']) > 1) {
-        $checkComment = $row['comments'];
+    if (strlen($row['howusedcomments']) > 1) {
+        $checkHowusedComment = $row['howusedcomments'];
     } else {
-        $checkComment = "";
+        $checkHowusedComment = "";
+    }
+    if (strlen($row['assistcomments']) > 1) {
+        $checkAssistComment = $row['assistcomments'];
+    } else {
+        $checkAssistComment = "";
     }
     $i = $i + 1;
     echo '<div class="container">';
     echo '<div class="col-xs-10 col-xs-offset-2"> ';
-    echo "<hr><span class='siteNum'>Site# " . $i . "</span>  - Department: " . $row['dept'] . "<br>Site Name: " . $row['projSiteName'] . "<br>URL: <a href='" . $row['projSiteURL'] . "' target='_blank'>" . $row['projSiteURL'] . "</a>";
+    echo "<hr><span class='siteNum'>Site# " . $i . "</span>  - Department: " . $row['dept'] . "<br>Site Name: " . $row['projSiteName'] . "<br>URL: <a href='" . $row['projSiteURL'] . "' target='_blank'>" . $row['projSiteURL'] . "</a><h4>How is this project site being used? (Check all that apply)</h4>";
     //echo '<div class="row clearfix">';
     echo '<input type="hidden" name = "id[' . $row['id'] . ']" value="' . $row['id'] . '">';
 
@@ -255,14 +267,22 @@ while ($row = $result->fetch_assoc()) {
             echo ' <label> ';
             echo ' <input type="checkbox" name="id[' . $row['id'] . '][otherusage]"  value="1" ';if ($row['otherusage'] == 1) {echo "checked";};
             echo '> ';
-            echo '  Other (please add a comment) ';
+            echo '  Other';
             echo ' </label> ';
             echo ' </div> ';
 
         echo '</div> '; // end of required form-group (radio buttons)
         echo '</div>'; // end of row offset
 
+            echo '<div class="col-xs-6 col-xs-offset-2"> ';
+          echo '<div class="form-group"> ';
+          echo '<label for="comments">Comment(s)</label> ';
+          echo '<textarea class="form-control" rows="3" tabindex="130" id="howusedcomments" name = "id[' . $row['id'] . '][howusedcomments]">' . $checkHowusedComment . '</textarea> ';
+          echo '</div> ';
+        echo '</div> '; //end of offset row
+
         echo '<div class="col-xs-10 col-xs-offset-2"> ';
+        echo '<h4>Please identify the type of assistance you would need for this site?</h4>';
         echo '<div class="form-group required"> ';
 
             echo '<div class="radio"> ';
@@ -301,7 +321,7 @@ while ($row = $result->fetch_assoc()) {
             echo ' <label> ';
             echo ' <input type="radio" name="id[' . $row['id'] . '][projType]"  value="Other" ';if (strtolower($checkType) == "other") {echo "checked";};
             echo '> ';
-            echo '  Other (please add a comment) ';
+            echo '  Other';
             echo ' </label> ';
             echo ' </div> ';
 
@@ -313,7 +333,7 @@ while ($row = $result->fetch_assoc()) {
     echo '<div class="col-xs-6 col-xs-offset-2"> ';
       echo '<div class="form-group"> ';
       echo '<label for="comments">Comment(s)</label> ';
-      echo '<textarea class="form-control" rows="3" tabindex="130" id="comments" name = "id[' . $row['id'] . '][comments]">' . $checkComment . '</textarea> ';
+      echo '<textarea class="form-control" rows="3" tabindex="130" id="assistcomments" name = "id[' . $row['id'] . '][assistcomments]">' . $checkAssistComment . '</textarea> ';
       echo '</div> ';
     echo '</div> '; //end of offset row
     echo '</div>'; //end of container
@@ -345,10 +365,11 @@ while ($row = $result->fetch_assoc()) {
     <div class="row clearfix">
         <p class="text-center"><small>Copyright &copy; 2014 by The Regents of the University of Michigan<br />
         All Rights Reserved.</small><br></p>
+    </div>
   </footer>
 
-  <script src="js/jquery-1.11.2.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
