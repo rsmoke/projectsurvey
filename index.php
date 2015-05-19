@@ -162,9 +162,11 @@ SQL;
   <div class="container">
     <div class="jumbotron">
       <div class="centerfy"><img src="img/banner.png" class="img-responsive" alt="LSA Logo" /></div>
-      <h3>LSA CTools Project Survey<br>
-      <small><strong>Below are the CTools Project sites that you are listed as the contact person. 
-      Please help us identify the usage for each site.</strong></small></h3>
+      <h3>LSA CTools Project Survey</h3>
+      <h4>Below are the CTools Project sites that you are listed as the contact person. Please help us identify the usage for each site.</h4>
+      <p>Although, no immediate plans have been made for the retirement of CTools, LSA would like to have a better understanding on how the
+       CTools Project sites are being used within the college; this will help in our efforts to properly identify alternative solutions.</p>
+        <p>Below are the CTools Project sites that you are listed as the contact person. Please help us identify the usage for each site.</p>
     </div>
   </div>
   <div class="container">
