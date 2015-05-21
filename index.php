@@ -121,7 +121,7 @@ SQL;
   <meta name="description" content="<?php echo $siteTitle;?>">
   <meta name="rsmoke" content="LSA_MIS">
 
-  <link rel="shortcut icon" href="ico/favicon.ico">
+  <link rel="shortcut icon" href="http://umich.edu/favicon.ico">
 
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/myStyles.css" type="text/css">
